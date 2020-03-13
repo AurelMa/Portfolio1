@@ -1,0 +1,106 @@
+div{
+    max-width:1277px;
+    background-color:darkgray;
+}
+
+body{
+    font-family: Arial;
+    background-color:gray; 
+    color: darkolivegreen;
+}
+
+ul{
+    list-style-type: none; 
+}
+li  {
+}
+img {
+    width: 200;
+    float: right;
+    margin : 20px;
+}
+
+#banner {     
+    background-image: url(img/background.jpg);       
+    height: 266px; 
+}
+
+#main {
+    margin:10px; 
+    padding: 15px;
+    border:none;
+}
+
+#menu {   
+    display:block;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:link {
+    color: darkolivegreen;
+}
+
+/* visited link */
+a:visited {
+    color: darkolivegreen;
+}
+
+/* mouse over link */
+a:hover {
+    color:cadetblue;
+
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
+
+#current {
+    color:black;
+}
+
+#columnsContainer{
+    display:flex;
+}
+.c{
+    flex: 1;
+    width: auto;
+    padding: 10px;
+}
+#paddingTop{
+    margin-top: 10px;
+}
+
+#padding{
+    padding: 10px;
+}
+#fixedBox {
+    width: 45px;
+    height: 40px; 
+    background-color: indianred;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 2;  
+    padding-left: 17px;
+    border-radius: 10px;
+    border-color: black;
+}
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: grey;
+    background-color: dimgray;
+    font-weight: bold;
+}
+
+td {
+    border: 2px solid darkolivegreen;
+    padding: 10px;
+}
